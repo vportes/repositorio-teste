@@ -14,7 +14,7 @@ public class startApplication extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(startApplication.class.getResource("start-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
         stage.getIcons().add(new Image("file:src/main/java/com/apptest/apptest/icon.png")); //adicionar icon ao aplicativo, necessita do import da linha 6
-        stage.setTitle("Teste de app");
+        stage.setTitle("Teste app");
         stage.setScene(scene);
         stage.show();
     }
