@@ -27,7 +27,7 @@ public class firstController {
             try { // Carregar second-view.fxml
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("second-view.fxml"));
                 Parent root = loader.load();
-                Scene secondViewScene = new Scene(root, 320, 240);
+                Scene secondViewScene = new Scene(root);
                 Stage stage = (Stage) testeText.getScene().getWindow(); // Pegar a cena em que testeText pertence (a atual)
                 stage.setScene(secondViewScene);
                 stage.show();
