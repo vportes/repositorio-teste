@@ -5,6 +5,8 @@ module com.apptest.apptest {
     requires org.controlsfx.controls;
     requires java.logging;
 
-    opens com.apptest.apptest to javafx.fxml;
-    exports com.apptest.apptest;
+    opens com.vportes.apptest to javafx.fxml;
+    exports com.vportes.apptest;
+    exports com.vportes.apptest.controller;
+    opens com.vportes.apptest.controller to javafx.fxml;
 }

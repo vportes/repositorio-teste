@@ -1,4 +1,4 @@
-package com.apptest.apptest;
+package com.vportes.apptest.controller;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -25,7 +25,7 @@ public class firstController {
         String pw = senha1.getText();
         if (user.equals(correctUser) && pw.equals(correctPassword)) {
             try { // Carregar second-view.fxml
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("second-view.fxml"));
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/vportes/apptest/fxml/second-view.fxml"));
                 Parent root = loader.load();
                 Scene secondViewScene = new Scene(root);
                 Stage stage = (Stage) testeText.getScene().getWindow(); // Pegar a cena em que testeText pertence (a atual)

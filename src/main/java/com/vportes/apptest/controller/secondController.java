@@ -1,4 +1,4 @@
-package com.apptest.apptest;
+package com.vportes.apptest.controller;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -17,7 +17,7 @@ public class secondController {
 
     @FXML protected void onVoltarButtonClick() {
         try { // Carregar start-view.fxml
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("start-view.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/vportes/apptest/fxml/start-view.fxml"));
             Parent root = loader.load();
             Scene startViewScene = new Scene(root, 320, 240);
             Stage stage = (Stage) secondText.getScene().getWindow(); // Pegar a cena em que secondText pertence (a atual)
