@@ -15,7 +15,7 @@ public class secondController {
 
     @FXML private Text secondText;
 
-    @FXML protected void onSecondButtonClick() {
+    @FXML protected void onVoltarButtonClick() {
         try { // Carregar start-view.fxml
             FXMLLoader loader = new FXMLLoader(getClass().getResource("start-view.fxml"));
             Parent root = loader.load();

@@ -16,13 +16,13 @@ public class firstController {
     private static final Logger logger = Logger.getLogger(firstController.class.getName()); //logger
 
     @FXML private Label testeText;
-    @FXML private TextField user1;
-    @FXML private PasswordField password1;
-    @FXML protected void onTestButtonClick() {
+    @FXML private TextField usuario1;
+    @FXML private PasswordField senha1;
+    @FXML protected void onLoginButtonClick() {
         String correctPassword = "123";
         String correctUser = "Vinicius";
-        String user = user1.getText();
-        String pw = password1.getText();
+        String user = usuario1.getText();
+        String pw = senha1.getText();
         if (user.equals(correctUser) && pw.equals(correctPassword)) {
             try { // Carregar second-view.fxml
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("second-view.fxml"));

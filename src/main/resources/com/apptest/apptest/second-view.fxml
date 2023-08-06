@@ -7,6 +7,6 @@
 <AnchorPane prefHeight="240.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.apptest.apptest.secondController">
     <VBox alignment="CENTER" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <Text fx:id="secondText" text="Segunda cena!" />
-        <Button onAction="#onSecondButtonClick" text="Voltar" />
+        <Button onAction="#onVoltarButtonClick" text="Voltar" />
     </VBox>
 </AnchorPane>

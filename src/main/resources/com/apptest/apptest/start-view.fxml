@@ -16,11 +16,11 @@
       </padding>
       <Text text="Bem vindo!" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="0"/>
       <Label text="Usuário:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
-      <TextField fx:id="user1" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+      <TextField fx:id="usuario1" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
       <Label text="Senha:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
-      <PasswordField fx:id="password1" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+      <PasswordField fx:id="senha1" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
     </GridPane>
-    <Button onAction="#onTestButtonClick" text="Login"/>
+    <Button onAction="#onLoginButtonClick" text="Login"/>
     <Label fx:id="testeText"/>
   </VBox>
 </AnchorPane>
